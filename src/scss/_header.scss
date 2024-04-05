@@ -1,0 +1,140 @@
+header {
+  width: 100%;
+  height: 150px;
+
+  .title {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    .left {
+      gap: 15px;
+      justify-content: space-evenly;
+      display: flex;
+
+      a,
+      i {
+        font-size: 15px;
+        color: black;
+      }
+    }
+
+    .right {
+      width: 40%;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+
+      a,
+      i {
+        font-size: 15px;
+        color: black;
+      }
+    }
+  }
+
+  .bottom {
+    width: 85%;
+    margin: 0 auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .left {
+      width: 20%;
+      height: 100%;
+
+      img {
+        width: 250px;
+      }
+    }
+
+    .center {
+      width: 45%;
+      input {
+        width: 300px;
+        padding: 10px;
+        border: 0;
+        background-color: rgb(241, 240, 239);
+      }
+
+      select {
+        width: 170px;
+        padding: 10px;
+        border: 0;
+        background-color: rgb(241, 240, 239);
+      }
+
+      i {
+        padding: 10px;
+        background-color: rgb(241, 240, 239);
+      }
+    }
+
+    .right {
+      width: 15%;
+      display: flex;
+      justify-content: space-around;
+
+      i {
+        position: relative;
+
+        sup {
+          font-size: 9px;
+          border-radius: 100%;
+          background-color: red;
+          color: #ffffff;
+          padding: 4px;
+          position: absolute;
+          top: -5px;
+        }
+      }
+    }
+  }
+  .food {
+  // margin-bottom: 20px;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(146, 7, 7);
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .left {
+      display: flex;
+      align-items: center;
+      gap: 25px;
+      margin-right: 190px;
+      height: 100%;
+
+      a,
+      i {
+        color: #ffffff;
+      }
+    }
+
+    .right{
+         display: flex;
+      align-items: center;
+      gap: 25px;
+      height: 100%;
+  a,
+      i {
+        color: #ffffff;
+        
+      }
+  }
+}
+}
+
+.container{
+  width: 90%;
+  margin:0 auto;
+}
+
+// =========================================================================
+
+
+

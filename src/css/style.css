@@ -1,0 +1,402 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  outline: none;
+}
+
+header {
+  width: 100%;
+  height: 150px;
+}
+header .title {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+header .title .left {
+  gap: 15px;
+  justify-content: space-evenly;
+  display: flex;
+}
+header .title .left a,
+header .title .left i {
+  font-size: 15px;
+  color: black;
+}
+header .title .right {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+header .title .right a,
+header .title .right i {
+  font-size: 15px;
+  color: black;
+}
+header .bottom {
+  width: 85%;
+  margin: 0 auto;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .bottom .left {
+  width: 20%;
+  height: 100%;
+}
+header .bottom .left img {
+  width: 250px;
+}
+header .bottom .center {
+  width: 45%;
+}
+header .bottom .center input {
+  width: 300px;
+  padding: 10px;
+  border: 0;
+  background-color: rgb(241, 240, 239);
+}
+header .bottom .center select {
+  width: 170px;
+  padding: 10px;
+  border: 0;
+  background-color: rgb(241, 240, 239);
+}
+header .bottom .center i {
+  padding: 10px;
+  background-color: rgb(241, 240, 239);
+}
+header .bottom .right {
+  width: 15%;
+  display: flex;
+  justify-content: space-around;
+}
+header .bottom .right i {
+  position: relative;
+}
+header .bottom .right i sup {
+  font-size: 9px;
+  border-radius: 100%;
+  background-color: red;
+  color: #ffffff;
+  padding: 4px;
+  position: absolute;
+  top: -5px;
+}
+header .food {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(146, 7, 7);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header .food .left {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin-right: 190px;
+  height: 100%;
+}
+header .food .left a,
+header .food .left i {
+  color: #ffffff;
+}
+header .food .right {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  height: 100%;
+}
+header .food .right a,
+header .food .right i {
+  color: #ffffff;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.section1 {
+  width: 100%;
+  height: 500px;
+  background-image: url(../image/red.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section1 .text {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  margin-left: 150px;
+}
+.section1 .text h4 {
+  font-size: 14px;
+  line-height: 24px;
+  -webkit-text-decoration: none solid rgba(255, 255, 255, 0.8);
+          text-decoration: none solid rgba(255, 255, 255, 0.8);
+  text-align: left;
+  color: white;
+}
+.section1 .text h1 {
+  font-family: Yantramanav, Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 60px;
+  -webkit-text-decoration: none solid rgb(255, 255, 255);
+          text-decoration: none solid rgb(255, 255, 255);
+  color: white;
+}
+.section1 .text p {
+  font-size: 14px;
+  line-height: 24px;
+  -webkit-text-decoration: none solid rgba(255, 255, 255, 0.8);
+          text-decoration: none solid rgba(255, 255, 255, 0.8);
+  height: 48px;
+  width: 377.325px;
+  color: white;
+}
+.section1 .text a {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 15.6px;
+  -webkit-text-decoration: none solid rgb(255, 255, 255);
+          text-decoration: none solid rgb(255, 255, 255);
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: middle;
+  word-spacing: 0px;
+  background-position: 0% 0%;
+  color: #ffffff;
+  height: 42px;
+  width: 119.825px;
+  border: 2px solid #979696;
+  padding: 5px 20px 5px 20px;
+  min-height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  transition: 0.5s;
+}
+.section1 .text a:hover {
+  border: 2px solid #fcfafa;
+}
+.section1 .image {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section2 {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 600px;
+}
+.section2 .online {
+  width: 60%;
+  height: 250px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fcfafa;
+  box-shadow: 0px 1px 1px grey;
+  border-radius: 3px;
+}
+.section2 .online .best {
+  width: 33%;
+  height: 200px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  text-align: center;
+}
+.section2 .online .best i {
+  border-radius: 500%;
+  padding: 15px;
+  font-size: 1.5rem;
+  background-color: #979696;
+}
+.section2 .container .text {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+.section2 .container .text p {
+  transition: 0.3s;
+}
+.section2 .container .text p:hover {
+  color: brown;
+}
+.section2 .container .lines {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+.section2 .container .lines .line1 {
+  width: 240px;
+  height: 2px;
+  background-color: brown;
+  margin-left: 25px;
+}
+.section2 .container .lines .line2 {
+  width: 900px;
+  height: 2px;
+  background-color: grey;
+}/*# sourceMappingURL=style.css.map */
